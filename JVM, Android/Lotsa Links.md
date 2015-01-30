@@ -19,7 +19,8 @@ TODO
 * [CHET HAASE Android Development: Lotsa Links](http://graphics-geek.blogspot.ru/2015/01/android-development-lotsa-links.html)
 
 **Screencasts, cources**
-TODO
+* [Developing Android Apps. Android Fundamentals by Google](https://www.udacity.com/course/ud853)
 
 **Podcasts**
-TODO
+* [Java Posse](http://www.javaposse.com/)
+* [Android Developers Backstage](http://androidbackstage.blogspot.ru/)
