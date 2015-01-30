@@ -8,7 +8,7 @@
 * [Expecta](https://github.com/specta/expecta) - более удобный синтаксис написания тестов.
 * [OCMock](https://github.com/erikdoe/ocmock) - работа с моками.
 * SnapshotTests - тесты сравнением картинок
-  * [FBSnapshotTests]((https://github.com/facebook/ios-snapshot-test-case)
+  * [FBSnapshotTests](https://github.com/facebook/ios-snapshot-test-case)
   * [Expecta Matchers for FBSnapshotTestCase](https://github.com/dblock/ios-snapshot-test-case-expecta) 
 * [OHHTTPStubs](https://github.com/AliSoftware/OHHTTPStubs) - стабы.
 
