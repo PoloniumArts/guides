@@ -9,7 +9,7 @@
 * [Android Programming: The Big Nerd Ranch Guide](http://www.amazon.com/gp/product/0321804333/)
 * [Pro Android UI](http://www.amazon.com/gp/product/1430249862/)
 
-** TDD/BDD Books**
+**TDD/BDD Books**
 * [Effective Unit Testing: A guide for Java developers](http://www.amazon.com/Effective-Unit-Testing-guide-developers/dp/1935182579/)
 
 **Resources**
