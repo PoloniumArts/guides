@@ -1,0 +1,25 @@
+<templateSet group="Android">
+  <template name="ifsdk" value="if (Build.VERSION.SDK_INT $operator$ Build.VERSION_CODES.$sdk_version$) {&#10;    $cursor$&#10;}" description="Проверка версии Android SDK" toReformat="false" toShortenFQNames="true">
+    <variable name="operator" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sdk_version" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="infl" value="LayoutInflater.from($context$).inflate($cursor$);" description="Inflate" toReformat="false" toShortenFQNames="true">
+    <variable name="context" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="tvD" value="TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, $cursor$, $context$.getResources().getDisplayMetrics());" description="dp to px" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="context" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
