@@ -6,6 +6,8 @@
 Конфигурация для плагина [checkstyle][chkstl].
 ### findbugs-android-exclude.xml
 Исключающий фильтр для плагина [findbugs][fbp] (*Settings -> Other Settings -> FindBugs-IDEA -> Filter -> Exclude filter files*).
+### .gitignore
+.gitignore
 
 [fbp]: <https://plugins.jetbrains.com/plugin/3847>
 [pfp]: <http://tools.android.com/tech-docs/configuration>
