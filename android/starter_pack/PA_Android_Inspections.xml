@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inspections version="1.0">
-  <option name="myName" value="PoloniumArts Android Inspections" />
+  <option name="myName" value="PA Android Inspections" />
   <inspection_tool class="ClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-      <option name="m_minLength" value="5" />
-      <option name="m_maxLength" value="64" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-    <option name="m_minLength" value="8" />
-    <option name="m_maxLength" value="64" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
@@ -23,13 +23,13 @@
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="onlyCheckImmutables" value="false" />
       <option name="m_regex" value="[A-Z][A-Z_\d]*" />
-      <option name="m_minLength" value="3" />
-      <option name="m_maxLength" value="32" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="onlyCheckImmutables" value="false" />
     <option name="m_regex" value="[A-Z][A-Z_\d]*" />
-    <option name="m_minLength" value="5" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="DollarSignInName" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="WARNING" enabled="true" />
@@ -44,66 +44,66 @@
   <inspection_tool class="EnumeratedClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-      <option name="m_minLength" value="8" />
-      <option name="m_maxLength" value="64" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-    <option name="m_minLength" value="8" />
-    <option name="m_maxLength" value="64" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="EnumeratedConstantNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[A-Z][A-Z_\d]*" />
-      <option name="m_minLength" value="3" />
-      <option name="m_maxLength" value="32" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="[A-Z][A-Z_\d]*" />
-    <option name="m_minLength" value="5" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="InstanceMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-      <option name="m_minLength" value="4" />
-      <option name="m_maxLength" value="32" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="4" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="InstanceVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-      <option name="m_minLength" value="2" />
-      <option name="m_maxLength" value="32" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="m_[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="3" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="InterfaceNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-      <option name="m_minLength" value="3" />
-      <option name="m_maxLength" value="64" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-    <option name="m_minLength" value="8" />
-    <option name="m_maxLength" value="64" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="LocalVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_ignoreForLoopParameters" value="false" />
       <option name="m_ignoreCatchParameters" value="false" />
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-      <option name="m_minLength" value="1" />
-      <option name="m_maxLength" value="25" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_ignoreForLoopParameters" value="false" />
     <option name="m_ignoreCatchParameters" value="false" />
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="1" />
-    <option name="m_maxLength" value="20" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="LoggerInitializedWithForeignClass" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
@@ -123,12 +123,12 @@
   <inspection_tool class="ParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-      <option name="m_minLength" value="1" />
-      <option name="m_maxLength" value="25" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="1" />
-    <option name="m_maxLength" value="20" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="QuestionableName" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="nameString" value="aa,abc,bad,bar,bar2,baz,baz1,baz2,baz3,bb,blah,bogus,bool,cc,dd,defau1t,dummy,dummy2,ee,fa1se,ff,foo,foo1,foo2,foo3,foobar,four,fred,fred1,fred2,gg,hh,hello,hello1,hello2,hello3,ii,nu11,one,silly,silly2,string,two,that,then,three,whi1e,var" />
@@ -137,13 +137,13 @@
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="checkMutableFinals" value="false" />
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-      <option name="m_minLength" value="2" />
-      <option name="m_maxLength" value="32" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </scope>
     <option name="checkMutableFinals" value="false" />
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="3" />
-    <option name="m_maxLength" value="32" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true" />
