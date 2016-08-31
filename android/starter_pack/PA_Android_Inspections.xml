@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inspections version="1.0">
   <option name="myName" value="PA Android Inspections" />
+  <inspection_tool class="AndroidLintNewerVersionAvailable" enabled="true" level="INFO" enabled_by_default="true" />
+  <inspection_tool class="ArrayEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ArrayLengthInLoopCondition" enabled="true" level="INFO" enabled_by_default="true" />
+  <inspection_tool class="AssignmentUsedAsCondition" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CallToSimpleGetterInClass" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreGetterCallsOnOtherObjects" value="false" />
+    <option name="onlyReportPrivateGetter" value="false" />
+  </inspection_tool>
+  <inspection_tool class="CallToStringConcatCanBeReplacedByOperator" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CastConflictsWithInstanceof" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ClassMayBeInterface" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="ClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
@@ -11,6 +22,10 @@
     <option name="m_minLength" value="0" />
     <option name="m_maxLength" value="0" />
   </inspection_tool>
+  <inspection_tool class="ClassNestingDepth" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_limit" value="2" />
+  </inspection_tool>
+  <inspection_tool class="ComparableImplementedButEqualsNotOverridden" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
@@ -34,6 +49,8 @@
   <inspection_tool class="DollarSignInName" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="WARNING" enabled="true" />
   </inspection_tool>
+  <inspection_tool class="DoubleBraceInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="DynamicRegexReplaceableByCompiledPattern" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="EmptyClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignorableAnnotations">
       <value />
@@ -61,6 +78,14 @@
     <option name="m_minLength" value="0" />
     <option name="m_maxLength" value="0" />
   </inspection_tool>
+  <inspection_tool class="EqualsCalledOnEnumConstant" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EqualsHashCodeCalledOnUrl" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldRepeatedlyAccessed" enabled="true" level="INFO" enabled_by_default="true">
+    <option name="m_ignoreFinalFields" value="true" />
+  </inspection_tool>
+  <inspection_tool class="InnerClassMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
@@ -91,6 +116,9 @@
     <option name="m_minLength" value="0" />
     <option name="m_maxLength" value="0" />
   </inspection_tool>
+  <inspection_tool class="LengthOneStringsInConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LiteralAsArgToStringEquals" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LocalVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_ignoreForLoopParameters" value="false" />
@@ -109,6 +137,14 @@
     <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
     <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
   </inspection_tool>
+  <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreInitialCapacity" value="true" />
+  </inspection_tool>
+  <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MethodMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_onlyPrivateOrFinal" value="false" />
+    <option name="m_ignoreEmptyMethods" value="true" />
+  </inspection_tool>
   <inspection_tool class="MethodNameSameAsClassName" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true" />
   </inspection_tool>
@@ -120,6 +156,9 @@
     <option name="ignoreObjectMethods" value="true" />
     <option name="ignoreAnonymousClassMethods" value="false" />
   </inspection_tool>
+  <inspection_tool class="MultipleTopLevelClassesInFile" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonFinalUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="m_regex" value="[a-z][A-Za-z\d]*" />
@@ -130,9 +169,17 @@
     <option name="m_minLength" value="0" />
     <option name="m_maxLength" value="0" />
   </inspection_tool>
+  <inspection_tool class="PointlessNullCheck" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="PrivateMemberAccessBetweenOuterAndInnerClass" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="QuestionableName" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="nameString" value="aa,abc,bad,bar,bar2,baz,baz1,baz2,baz3,bb,blah,bogus,bool,cc,dd,defau1t,dummy,dummy2,ee,fa1se,ff,foo,foo1,foo2,foo3,foobar,four,fred,fred1,fred2,gg,hh,hello,hello1,hello2,hello3,ii,nu11,one,silly,silly2,string,two,that,then,three,whi1e,var" />
   </inspection_tool>
+  <inspection_tool class="RedundantImplements" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreSerializable" value="false" />
+    <option name="ignoreCloneable" value="false" />
+  </inspection_tool>
+  <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticVariableNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true">
       <option name="checkMutableFinals" value="false" />
@@ -145,8 +192,22 @@
     <option name="m_minLength" value="0" />
     <option name="m_maxLength" value="0" />
   </inspection_tool>
+  <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SuspiciousGetterSetter" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemOutErr" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreAnnotations" value="true" />
+  </inspection_tool>
   <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="WARNING" enabled_by_default="true">
     <scope name="Project Files" level="ERROR" enabled="true" />
   </inspection_tool>
+  <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+    <option name="ignoreClassesWithOnlyMain" value="true" />
+  </inspection_tool>
+  <inspection_tool class="ZeroLengthArrayInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
 </inspections>
 
